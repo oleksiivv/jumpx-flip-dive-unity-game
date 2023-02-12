@@ -21,10 +21,10 @@ public class Shop : MonoBehaviour
         coinsCurrent.text=PlayerPrefs.GetInt("coins").ToString();
 
         items.Add(new ShopItem(0,000,"Default"));
-        items.Add(new ShopItem(1,400,"Orange"));
-        items.Add(new ShopItem(2,650,"Red"));
-        items.Add(new ShopItem(3,850,"Transparent"));
-        items.Add(new ShopItem(4,1250,"Shinny"));
+        items.Add(new ShopItem(1,800,"Orange"));
+        items.Add(new ShopItem(2,1050,"Red"));
+        items.Add(new ShopItem(3,1550,"Transparent"));
+        items.Add(new ShopItem(4,2050,"Shinny"));
 
         for(int i=0;i<items.Count;i++){
             prices[i].text=items[i].price.ToString();

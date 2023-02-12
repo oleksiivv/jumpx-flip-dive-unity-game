@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2069,6 +2069,7 @@ MonoBehaviour:
   arrow: {fileID: 2015645044}
   startRotation: 90
   endRotation: 180
+  eps: 0.0001
   speed: 2
 --- !u!4 &720984856
 Transform:
@@ -5075,6 +5076,10 @@ PrefabInstance:
     - target: {fileID: 6379870235910451613, guid: ccddd5dc9f6f74f4a98bae71974ca6db, type: 3}
       propertyPath: m_Name
       value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380791344914238771, guid: ccddd5dc9f6f74f4a98bae71974ca6db, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccddd5dc9f6f74f4a98bae71974ca6db, type: 3}
